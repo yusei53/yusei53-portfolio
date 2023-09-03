@@ -10,8 +10,8 @@ export function IconIntroduction() {
         <a href="https://github.com/yusei53">
           <Image
             src="/img/github-original.svg"
-            height={40}
-            width={40}
+            height={50}
+            width={50}
             alt="githubのIcon画像"
           />
         </a>
@@ -19,8 +19,8 @@ export function IconIntroduction() {
       <a href="https://twitter.com/yuseidayo53">
         <Image
           src="/img/twitter-original.svg"
-          height={40}
-          width={38}
+          height={50}
+          width={43}
           alt="TwitterのIcon画像"
         />
       </a>
