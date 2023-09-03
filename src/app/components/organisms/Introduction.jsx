@@ -3,6 +3,7 @@ import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import { DetailIntroduction } from "../molecule/DetailIntroduction";
+import { IconIntroduction } from "../molecule/IconIntroduction";
 
 export function Introduction() {
   return (
@@ -11,7 +12,7 @@ export function Introduction() {
       direction="column"
       justifyContent="center"
       alignItems="Center"
-      sx={{ py: 10 }}
+      sx={{ py: 8 }}
     >
       <Avatar
         alt="logo"
@@ -27,6 +28,7 @@ export function Introduction() {
         </Typography>
       </Stack>
       <DetailIntroduction />
+      <IconIntroduction />
     </Stack>
   );
 }
