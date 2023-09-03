@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="logo">
-        <Link href="/">yusei53's Portfolio!</Link>
+        <Link href="/">ゆせの Portfolio!</Link>
       </div>
       <a href="" className="cta-btn">
         Resume
