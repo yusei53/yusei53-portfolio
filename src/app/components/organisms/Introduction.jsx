@@ -12,7 +12,7 @@ export function Introduction() {
       direction="column"
       justifyContent="center"
       alignItems="Center"
-      sx={{ py: 8 }}
+      sx={{ py: 5 }}
     >
       <Avatar
         alt="logo"
