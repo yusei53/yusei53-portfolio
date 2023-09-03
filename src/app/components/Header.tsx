@@ -4,7 +4,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
-export function ResponsiveAppBar() {
+export function Header() {
   return (
     <AppBar position="relative">
       <Container maxWidth="xl">
@@ -32,4 +32,5 @@ export function ResponsiveAppBar() {
     </AppBar>
   );
 }
-export default ResponsiveAppBar;
+
+export default Header;

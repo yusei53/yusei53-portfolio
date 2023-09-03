@@ -1,11 +1,11 @@
 "use client";
 
-import { ResponsiveAppBar } from "./components/ResponsiveAppBar";
+import { Header } from "./components/Header";
 
 export default function Home() {
   return (
     <>
-      <ResponsiveAppBar />
+      <Header />
     </>
   );
 }
