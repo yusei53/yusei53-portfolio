@@ -6,7 +6,7 @@ import Container from "@mui/material/Container";
 
 export function ResponsiveAppBar() {
   return (
-    <AppBar position="static">
+    <AppBar position="relative">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -16,12 +16,13 @@ export function ResponsiveAppBar() {
             href="/"
             sx={{
               mr: 2,
-              display: { xs: "none", md: "flex" },
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
+              position: "absolute",
+              left: 0,
             }}
           >
             ゆせの Portfolio
