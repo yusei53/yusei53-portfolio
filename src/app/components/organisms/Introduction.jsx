@@ -2,6 +2,7 @@ import * as React from "react";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
+import { DetailIntroduction } from "../molecule/DetailIntroduction";
 
 export function Introduction() {
   return (
@@ -10,7 +11,6 @@ export function Introduction() {
       direction="column"
       justifyContent="center"
       alignItems="Center"
-      spacing={2}
       sx={{ py: 10 }}
     >
       <Avatar
@@ -18,9 +18,15 @@ export function Introduction() {
         src=" "
         sx={{ width: 128, height: 128, boxShadow: 1 }}
       />
-      <Stack spacing={2}>
-        <Typography variant="h4">Yusei Imamura</Typography>
+      <Stack mt={"15px"}>
+        <Typography variant="h5">Yusei Imamura</Typography>
       </Stack>
+      <Stack>
+        <Typography variant="h7" color="#868e96">
+          Developer
+        </Typography>
+      </Stack>
+      <DetailIntroduction />
     </Stack>
   );
 }
