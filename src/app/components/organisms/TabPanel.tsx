@@ -13,19 +13,19 @@ export default function TabPanel() {
     <>
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
         <Tabs value={value} onChange={handleChange} centered>
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
+          <Tab label="About" />
+          <Tab label="Works" />
+          <Tab label="Skills" />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        Item One
+        About
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Item Two
+        Works
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        Item Three
+        Skills
       </CustomTabPanel>
     </>
   );
