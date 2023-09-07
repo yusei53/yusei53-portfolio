@@ -1,6 +1,7 @@
 import { Box, Tab, Tabs } from "@mui/material";
 import React from "react";
 import CustomTabPanel from "../molecule/CustomTabPanel";
+import TimeLine from "../molecule/TimeLine";
 
 export default function TabPanel() {
   const [value, setValue] = React.useState(0);
@@ -19,7 +20,7 @@ export default function TabPanel() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        About
+        <TimeLine />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         Works
