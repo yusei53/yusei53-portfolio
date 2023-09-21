@@ -3,6 +3,7 @@ import React from "react";
 import CustomTabPanel from "../molecule/CustomTabPanel";
 import TimeLine from "../molecule/TimeLine";
 import AboutList from "../data/AboutList";
+import SkillCard from "../molecule/SkillCard";
 
 export default function TabPanel() {
   const [value, setValue] = React.useState(0);
@@ -27,7 +28,7 @@ export default function TabPanel() {
         Works
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        Skills
+        <SkillCard />
       </CustomTabPanel>
     </>
   );
