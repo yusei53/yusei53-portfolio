@@ -31,7 +31,7 @@ const AboutList: About[] = [
     date: "2021/12",
     title: "プログラミングを始める",
     subtitle:
-      "知らないおじさんに話しかけられる/Techgymというプログラミングスクールにjoin/python",
+      "知らないおじさんに話しかけられる/Techgymというプログラミングスクールにjoin/python/人生のターニングポイント[2]",
   },
   {
     date: "2022/9-now",
@@ -65,9 +65,15 @@ const AboutList: About[] = [
     subtitle: "12daysのサマーインターン/初rails/事業を作る難しさを知る",
   },
   {
-    date: "2033/9",
+    date: "2023/8",
+    title: "株式会社マイベストでインターン",
+    subtitle: "3days/toCプロダクトの実務の設計を体験/常に意思決定に疑問を持つ",
+  },
+  {
+    date: "2023/9",
     title: "Sansan株式会社でインターン",
-    subtitle: "2weekのハッカソン(サマーインターン)/未来のインフラを作る",
+    subtitle:
+      "2weekのハッカソン(サマーインターン)/未来のインフラを作る/イーズミーを開発, リリース",
   },
 ];
 
