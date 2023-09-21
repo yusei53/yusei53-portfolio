@@ -3,7 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import About from "../models/About";
+import { About } from "../models/About";
 
 interface TProps {
   AboutList: About[];

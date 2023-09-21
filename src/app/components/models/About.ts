@@ -1,5 +1,5 @@
-export default interface About {
+export type About = {
   date: string;
   title: string;
   subtitle: string;
-}
+};
