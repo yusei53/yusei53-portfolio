@@ -1,13 +1,13 @@
+import { About } from "@/app/data/AboutList";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { About } from "../../type/About";
 
-interface TProps {
+type TProps = {
   AboutList: About[];
-}
+};
 
 const TimeLine: React.FC<TProps> = ({ AboutList }) => {
   return (

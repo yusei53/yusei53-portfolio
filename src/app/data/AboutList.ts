@@ -1,4 +1,8 @@
-import About from "../models/About";
+export type About = {
+  date: string;
+  title: string;
+  subtitle: string;
+};
 
 const AboutList: About[] = [
   {
