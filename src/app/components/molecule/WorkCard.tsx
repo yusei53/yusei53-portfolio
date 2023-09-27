@@ -8,20 +8,20 @@ import Grid from "@mui/material/Grid";
 import { Work } from "@/app/data/WorkList";
 
 type TProps = {
-  workCard: Work;
+  workList: Work;
 };
 
-const WorkCard: React.FC<TProps> = ({ workCard }) => (
-  <Card sx={{ width: workCard.cardWidth }}>
+const WorkCard: React.FC<TProps> = ({ workList }) => (
+  <Card sx={{ width: "auto", margin: 1 }}>
     <CardMedia
       component="img"
-      height={workCard.imageHeight}
-      image={require(`../../img/${workCard.imagePath}`)}
-      alt={workCard.title}
+      height={workList.imageHeight}
+      image={`../img/workImage/${workList.imagePath}`}
+      alt={workList.title}
     />
     <CardContent>
       <Typography gutterBottom variant="h5" component="h1" align="left">
-        {workCard.title}
+        {workList.title}
       </Typography>
       <Typography
         variant="body2"
@@ -29,11 +29,16 @@ const WorkCard: React.FC<TProps> = ({ workCard }) => (
         color="text.secondary"
         align="left"
       >
-        {workCard.description}
+        {workList.description.split("\n").map((line, index) => (
+          <span key={index}>
+            {line}
+            <br />
+          </span>
+        ))}
       </Typography>
     </CardContent>
-    <Grid container spacing={1} sx={{ padding: 1 }}>
-      {workCard.tips.map((tips) => (
+    <Grid container spacing={1} sx={{ padding: 2 }}>
+      {workList.tips.map((tips) => (
         <Grid item key={tips}>
           <Chip label={tips} variant="outlined" />
         </Grid>
