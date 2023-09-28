@@ -8,14 +8,13 @@ export function Header() {
   return (
     <AppBar position="relative">
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
+        <Toolbar>
           <Typography
             variant="h6"
             noWrap
             component="a"
             href="/"
             sx={{
-              mr: 2,
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
