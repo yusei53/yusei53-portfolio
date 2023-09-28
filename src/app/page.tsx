@@ -8,10 +8,8 @@ import TabPanel from "./components/organisms/TabPanel";
 export default function Home() {
   return (
     <>
-      <Header />
       <Introduction />
       <TabPanel />
-      <Footer />
     </>
   );
 }
