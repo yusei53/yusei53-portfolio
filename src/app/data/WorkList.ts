@@ -14,7 +14,7 @@ const WorkList: Work[] = [
     cardWidth: 350,
     title: "portfolioサイト",
     description:
-      "このサイトです。\n勉強がてらReact QueryとMock使って実装しています。 \n https://github.com/yusei53/yusei53-portfolio",
+      "このサイトです。\nDBをsupabaseに格納したい \n https://github.com/yusei53/yusei53-portfolio",
     tips: ["Next.js", "TypeScript"],
   },
   {

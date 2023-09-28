@@ -12,7 +12,7 @@ type TProps = {
 };
 
 const WorkCard: React.FC<TProps> = ({ workList }) => (
-  <Card sx={{ width: "auto", margin: 1 }}>
+  <Card sx={{ width: "auto", margin: 0.5 }}>
     <CardMedia
       component="img"
       height={workList.imageHeight}
