@@ -16,16 +16,16 @@ export function Introduction() {
     >
       <Avatar
         alt="logo"
-        src=" "
+        src="../img/Yusei.png"
         sx={{ width: 128, height: 128, boxShadow: 1 }}
       />
       <Stack mt={"15px"}>
-        <Typography variant="h5">Yusei Imamura</Typography>
+        <Typography variant="h5" fontFamily={"monospace"}>
+          Yusei Imamura
+        </Typography>
       </Stack>
       <Stack>
-        <Typography variant="h7" color="#868e96">
-          Developer
-        </Typography>
+        <Typography color="#868e96">App Developer</Typography>
       </Stack>
       <DetailIntroduction />
       <IconIntroduction />
