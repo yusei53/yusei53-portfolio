@@ -59,7 +59,7 @@ const WorkList: Work[] = [
     cardWidth: 350,
     title: "ベテランすまい",
     description:
-      "speeeサマーインターン/家を売りたいが、どの不動産に頼めばいいかわからないユーザーの課題に対してのプロダクト \n https://github.com/yusei53/Veteran-home",
+      "家を売りたいが、どの不動産に頼めばいいかわからないユーザーの課題に対してのプロダクト \n https://github.com/yusei53/Veteran-home",
     tips: ["Rails"],
   },
   {
@@ -68,8 +68,17 @@ const WorkList: Work[] = [
     cardWidth: 350,
     title: "イーズミー",
     description:
-      "Sansanサマーインターン/同じ目的を持った人同士が出会える環境を提供するアプリ \n https://github.com/sansan-event-fusion/spark-2023-teamP",
-    tips: ["Next.js", "TypeScript", "Rails", "AWS", "Docker", "Github Actions"],
+      "同じ目的を持った人同士が出会える環境を提供するアプリ。sansan株式会社で準優勝 \n https://github.com/sansan-event-fusion/spark-2023-teamP",
+    tips: ["Next.js", "TypeScript", "Rails", "AWS", "Docker"],
+  },
+  {
+    imagePath: "otocampus.png",
+    imageHeight: 225,
+    cardWidth: 350,
+    title: "オトキャンパス",
+    description:
+      "長期インターン自社開発アプリ/企画の要素をもとにTips・ツールを紹介していくメディア系のサービス \n https://github.com/oto-port/topic-tips",
+    tips: ["php", "vanilla.js", "Wordpress"],
   },
 ];
 
