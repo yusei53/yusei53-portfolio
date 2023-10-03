@@ -7,7 +7,17 @@ export function IconIntroduction() {
   return (
     <Stack display="flex" direction="row" mt={2}>
       <Box marginRight={3}>
-        <a href="https://github.com/yusei53">
+        <a href="https://twitter.com/yuseidayo53" target="_blank">
+          <Image
+            src="/img/twitter-original.svg"
+            height={50}
+            width={45}
+            alt="TwitterのIcon画像"
+          />
+        </a>
+      </Box>
+      <Box marginRight={3}>
+        <a href="https://github.com/yusei53" target="_blank">
           <Image
             src="/img/github-original.svg"
             height={50}
@@ -16,12 +26,12 @@ export function IconIntroduction() {
           />
         </a>
       </Box>
-      <a href="https://twitter.com/yuseidayo53">
+      <a href="https://qiita.com/yusei53" target="_blank">
         <Image
-          src="/img/twitter-original.svg"
+          src="/img/qiita.png"
           height={50}
-          width={43}
-          alt="TwitterのIcon画像"
+          width={50}
+          alt="qiitaのIcon画像"
         />
       </a>
     </Stack>
