@@ -51,11 +51,10 @@ export const SkillList: Skill[] = [
     title: "python",
     sourcePath: "https://www.python.org/",
   },
-
   {
-    imagePath: "docker.svg",
-    title: "docker",
-    sourcePath: "https://www.docker.com/",
+    imagePath: "bun.svg",
+    title: "Bun",
+    sourcePath: "https://bun.sh/",
   },
   {
     imagePath: "playwright.svg",
@@ -66,5 +65,20 @@ export const SkillList: Skill[] = [
     imagePath: "githubactions.svg",
     title: "github actions",
     sourcePath: "https://docs.github.com/ja/actions",
+  },
+  {
+    imagePath: "docker.svg",
+    title: "docker",
+    sourcePath: "https://www.docker.com/",
+  },
+  {
+    imagePath: "app-runner.svg",
+    title: "App runner",
+    sourcePath: "https://aws.amazon.com/jp/apprunner/",
+  },
+  {
+    imagePath: "ecr.svg",
+    title: "ECR",
+    sourcePath: "https://aws.amazon.com/jp/ecr/",
   },
 ];
