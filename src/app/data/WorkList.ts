@@ -23,7 +23,7 @@ const WorkList: Work[] = [
     cardWidth: 350,
     title: "ASAP",
     description:
-      "大学生向けにメール(授業欠席、バイト欠席、内定辞退)のテンプレート文を生成し、送信画面まで遷移してくれるアプリ \n https://github.com/yusei53/ASAP",
+      "大学生向けにメール(授業欠席,バイト欠席,内定辞退)のテンプレート文を生成/送信画面まで遷移 \n https://github.com/yusei53/ASAP",
     tips: ["React"],
   },
   {
@@ -41,7 +41,7 @@ const WorkList: Work[] = [
     cardWidth: 350,
     title: "タイプロ",
     description:
-      "タイピングしながらプログラミングの知識を取得する駆け出しエンジニア向けアプリ(コミット期間は一週間ほどで、未完成) \n https://github.com/yusei53/typing_game",
+      "タイピング練習＋プログラミングの知識を取得する駆け出しエンジニア向けアプリ(コミット期間は3日程/未完成) \n https://github.com/yusei53/typing_game",
     tips: ["React", "TypeScript"],
   },
   {
@@ -51,7 +51,7 @@ const WorkList: Work[] = [
     title: "Liscript",
     description:
       "音声ファイル文字起こし&翻訳&要約アプリ。ChatWork株式会社様から企業賞受賞/技育展出場 \n https://github.com/geekcamp2023-vol5-team32/liscript",
-    tips: ["Next.js", "TypeScript", "flask", "ChatGPT", "Whisper"],
+    tips: ["Next.js", "TypeScript", "ChatGPT", "Whisper"],
   },
   {
     imagePath: "veteranhome.png",
@@ -69,7 +69,7 @@ const WorkList: Work[] = [
     title: "イーズミー",
     description:
       "同じ目的を持った人同士が出会える環境を提供するアプリ。sansan株式会社で準優勝 \n https://github.com/sansan-event-fusion/spark-2023-teamP",
-    tips: ["Next.js", "TypeScript", "Rails", "AWS", "Docker"],
+    tips: ["Next.js", "TypeScript", "CICD", "AWS", "Docker"],
   },
   {
     imagePath: "otocampus.png",
