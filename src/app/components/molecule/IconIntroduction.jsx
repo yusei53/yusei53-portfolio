@@ -26,12 +26,25 @@ export function IconIntroduction() {
           />
         </a>
       </Box>
-      <a href="https://qiita.com/yusei53" target="_blank">
+      <Box marginRight={3}>
+        <a href="https://qiita.com/yusei53" target="_blank">
+          <Image
+            src="/img/qiita.png"
+            height={50}
+            width={50}
+            alt="qiitaのIcon画像"
+          />
+        </a>
+      </Box>
+      <a
+        href="https://www.canva.com/design/DAFwLqVbbf0/EcrPUnfZpKFHLTfRgL63Uw/edit"
+        target="_blank"
+      >
         <Image
-          src="/img/qiita.png"
-          height={50}
+          src="/img/canva.png"
+          height={52}
           width={50}
-          alt="qiitaのIcon画像"
+          alt="canvaのIcon画像"
         />
       </a>
     </Stack>
