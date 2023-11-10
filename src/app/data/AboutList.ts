@@ -55,8 +55,8 @@ const AboutList: About[] = [
   },
   {
     date: "2023/7-now",
-    title: "株式会社Leapode設立",
-    subtitle: "株式会社Leapode代表取締役/業務委託",
+    title: "株式会社Leapcode設立",
+    subtitle: "株式会社Leapcode代表取締役/業務委託",
   },
   {
     date: "2023/7-now",
