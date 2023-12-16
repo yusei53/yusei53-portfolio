@@ -44,7 +44,7 @@ const AboutList: About[] = [
   },
   {
     date: "2022/12-now",
-    title: "成蹊大学プログラミング団体Peach.techにjoin",
+    title: "成蹊大学エンジニア団体Peach.techにjoin",
     subtitle:
       "知らない先輩に話しかけられる/現在サークル化, 代表を務める/プログラミングの面白さを知る",
   },
@@ -78,6 +78,12 @@ const AboutList: About[] = [
     title: "Sansan株式会社でインターン",
     subtitle:
       "2weekのハッカソン(サマーインターン)/未来のインフラを作る/イーズミーを開発, リリース",
+  },
+  {
+    date: "2023/12",
+    title: "成蹊大学エンジニア団体PeachTechが賞を受賞",
+    subtitle:
+      "代表を務めている団体が文化祭での展示や、普段の取り組みが学内で評価され、大学から賞を受賞しました。",
   },
 ];
 

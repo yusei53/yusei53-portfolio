@@ -77,8 +77,17 @@ const WorkList: Work[] = [
     cardWidth: 350,
     title: "オトキャンパス",
     description:
-      "長期インターン自社開発アプリ/企画の要素をもとにTips・ツールを紹介していくメディア系のサービス \n https://github.com/oto-port/topic-tips",
+      "長期インターン自社開発アプリ/企画の要素をもとにTips・ツールを紹介していくメディア系のサービス。企画から設計、開発まで。 \n https://github.com/oto-port/topic-tips",
     tips: ["php", "vanilla.js", "Wordpress"],
+  },
+  {
+    imagePath: "extention.png",
+    imageHeight: 225,
+    cardWidth: 350,
+    title: "vscode拡張機能",
+    description:
+      "個人的にめちゃくちゃ面白い拡張機能です。わたしのgithubに貼っているポケモンの画像がコードを書いて生成されます。 \n https://github.com/Najah7/Pokemon-Stats-Checker",
+    tips: ["TypeScript", "AWS", "PokeAPI"],
   },
 ];
 
