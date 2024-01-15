@@ -52,10 +52,30 @@ export const SkillList: Skill[] = [
     sourcePath: "https://www.python.org/",
   },
   {
+    imagePath: "go.svg",
+    title: "Go",
+    sourcePath: "https://go.dev/",
+  },
+  {
+    imagePath: "prisma.svg",
+    title: "Prisma",
+    sourcePath: "https://www.prisma.io/",
+  },
+  {
+    imagePath: "supabase.svg",
+    title: "Supabase",
+    sourcePath: "https://supabase.com/",
+  },
+  {
     imagePath: "bun.svg",
     title: "Bun",
     sourcePath: "https://bun.sh/",
   },
+  // {
+  //   imagePath: "/materialui.png",
+  //   title: "MaterialUI",
+  //   sourcePath: "https://bun.sh/",
+  // },
   {
     imagePath: "playwright.svg",
     title: "playwright",
