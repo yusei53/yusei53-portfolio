@@ -86,8 +86,26 @@ const WorkList: Work[] = [
     cardWidth: 350,
     title: "vscode拡張機能",
     description:
-      "個人的にめちゃくちゃ面白い拡張機能です。わたしのgithubに貼っているポケモンの画像がコードを書いて生成されます。 \n https://github.com/Najah7/Pokemon-Stats-Checker",
+      "個人的にめちゃくちゃ面白い拡張機能です。コードを書いて、その書き方に応じてポケモンの画像が生成されます。リリース済 \n https://github.com/Najah7/Pokemon-Stats-Checker",
     tips: ["TypeScript", "AWS", "PokeAPI"],
+  },
+  {
+    imagePath: "seikei.png",
+    imageHeight: 225,
+    cardWidth: 350,
+    title: "成蹊大学サークル紹介サイト",
+    description:
+      "未経験を二人を連れて開発しました。PMの立場を取って開発に携わりました。DBはsupabaseにする予定です \n https://github.com/Peach-Tech0927/seikei_org_list",
+    tips: ["Next.js", "TypeScript", "MaterialUI"],
+  },
+  {
+    imagePath: "htmlapp.png",
+    imageHeight: 225,
+    cardWidth: 350,
+    title: "PeachTech紹介サイト",
+    description:
+      "授業内でサイトを自由に作って発表する機会があったので、代表している団体の紹介サイトを開発しました \n https://github.com/yusei53/html-introduce-class",
+    tips: ["html", "css", "vanilla.js"],
   },
 ];
 
