@@ -16,7 +16,7 @@ export function Introduction() {
     >
       <Avatar
         alt="logo"
-        src="../img/Yusei.png"
+        src="../img/yuse.png"
         sx={{ width: 128, height: 128, boxShadow: 1 }}
       />
       <Stack mt={"15px"}>
