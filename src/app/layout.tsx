@@ -1,15 +1,13 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Head from "./Head";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ゆせのportfolio",
   description: "next.jsとtypescriptでportfolioサイト作ってみました",
-  icons: {
-    icon: "/icon.png",
-  },
 };
 
 export default function RootLayout({
@@ -19,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <link rel="icon" href="/favicon.ico" />
+      <Head />
       <body>{children}</body>
     </html>
   );
