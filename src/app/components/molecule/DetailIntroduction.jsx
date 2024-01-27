@@ -9,10 +9,10 @@ export function DetailIntroduction() {
         <Typography variant="h6">テニスコーチ🎾</Typography>
       </Stack>
       <Stack>
-        <Typography variant="h6">成蹊プログラミングサークル</Typography>
+        <Typography variant="h6">成蹊エンジニア団体</Typography>
       </Stack>
       <Stack>
-        <Typography variant="h6">Peach.tech代表🍑</Typography>
+        <Typography variant="h6">PeachTech代表🍑</Typography>
       </Stack>
     </>
   );
